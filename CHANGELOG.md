@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MIT License
 
 ### Testing
-- 31 test cases covering all major functionality
+- 32 test cases covering all major functionality
 - Code coverage reporting
 - Linting and formatting checks
 

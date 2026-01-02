@@ -50,7 +50,7 @@ Perform a calculation.
 }
 ```
 
-**Operations:** `add`, `subtract`, `multiply`, `divide`
+**Operations:** `add`, `subtract`, `multiply`, `divide`, `power`
 
 **Response:**
 ```json
