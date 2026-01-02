@@ -1,0 +1,25 @@
+{
+  "calculations": [
+    {
+      "id": 1,
+      "operation": "add",
+      "a": 10,
+      "b": 5,
+      "result": 15
+    },
+    {
+      "id": 2,
+      "operation": "multiply",
+      "a": 7,
+      "b": 8,
+      "result": 56
+    },
+    {
+      "id": 3,
+      "operation": "divide",
+      "a": 100,
+      "b": 4,
+      "result": 25
+    }
+  ]
+}
