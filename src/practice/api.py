@@ -25,7 +25,7 @@ def calculate_endpoint():
 
     Expected JSON body:
     {
-        "operation": "add|subtract|multiply|divide",
+        "operation": "add|subtract|multiply|divide|power",
         "a": number,
         "b": number
     }

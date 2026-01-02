@@ -68,6 +68,10 @@ class TestCalculateFunction:
         """Test calculate with divide operation."""
         assert calculate("divide", 10, 2) == 5
 
+    def test_calculate_power(self):
+        """Test calculate with power operation."""
+        assert calculate("power", 2, 3) == 8
+
     def test_calculate_invalid_operation(self):
         """Test calculate with invalid operation."""
         with pytest.raises(ValueError, match="Unsupported operation"):

@@ -74,7 +74,7 @@ def calculate(operation, a, b):
     """Perform a calculation based on the operation string.
 
     Args:
-        operation: Operation to perform (add, subtract, multiply, divide)
+        operation: Operation to perform (add, subtract, multiply, divide, power)
         a: First operand
         b: Second operand
 
@@ -90,6 +90,7 @@ def calculate(operation, a, b):
         "subtract": calc.subtract,
         "multiply": calc.multiply,
         "divide": calc.divide,
+        "power": calc.power,
     }
 
     if operation not in operations:
